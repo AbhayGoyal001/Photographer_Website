@@ -1,0 +1,123 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family:Poppins, sans-serif;
+	box-sizing: border-box;
+}
+nav{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding-top: 20px;
+	padding-left: 8%;
+	padding-right: 8%;
+    background-color:rgb(36, 13, 13);
+}
+.logo{
+	color: white;
+	font-size: 35px;
+	letter-spacing: 1px;
+	cursor: pointer;
+}
+nav ul li{
+	list-style-type: none;
+	display: inline-block;
+	padding: 10px  25px;
+}
+nav ul li a{
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+	text-transform: capitalize;
+}
+nav ul li a:hover{
+	color: aqua;
+	transition: .4s;
+}
+.btn{
+	border-color: aqua;
+	color:#29d9d5;
+	text-decoration: none;
+	border: 2px solid transparent;
+	font-weight: bold;
+	padding: 10px 25px;
+	border-radius: 30px;
+	transition: transform .4s; 
+}
+header{
+    display: inline;
+    margin-left: 10%;
+    padding-left: 1000px;
+    border-radius: 20px;
+    
+}
+.para{
+    background-color: rgb(211, 193, 228);
+    padding-left: 100px;
+   
+}
+.blog{
+    background-color: rgb(211, 193, 228);;
+    padding-left: 100px;
+    color: rgb(0, 76, 255);
+}
+#client-section{ 
+    position: relative;
+}
+
+#client-section::before{
+ content: "";
+ position: absolute;
+ 
+ width: 100%;
+ height: 100%;
+ z-index: -1;
+ opacity: 0.3;
+}
+
+#clients{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.client-item{
+    padding: 34px;
+}
+
+#clients img{
+    height: 200px;
+}
+article{
+    height: 200px;
+    width: 100%;
+}
+.st{
+    text-align: center;
+    color: rgb(103, 252, 202);
+    padding-bottom: 2%;
+}
+.lore{
+    text-align: center;
+    color: aliceblue;
+    padding-bottom: 2%;
+}
+.head{
+    text-align: center;
+    color: aliceblue;
+    padding-bottom: 2%;
+}
+.bt{
+    align-items: center;
+    border-color: aqua;
+	color:#29d9d5;
+	text-decoration: none;
+	border: 2px solid transparent;
+	font-weight: bold;
+	padding: 10px 25px;
+	border-radius: 30px;
+	transition: transform .4s; 
+    padding-bottom: 2%;
+    padding-left: 2%;
+}
+
